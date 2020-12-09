@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.856);
+  color: white;
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .calculator {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto;
+}
+
+.container .calculator .solve {
+  font-size: 2.5rem;
+  text-align: end;
+}
+
+.container .calculator .result {
+  font-size: 1.2rem;
+  text-align: end;
+}
+
+.container .calculator table tr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container .calculator table td {
+  font-weight: bolder;
+  width: 4rem;
+  height: 4rem;
+  background: rgba(0, 0, 0, 0.856);
+  margin: 10px;
+  margin-left: 0px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 1rem;
+  -webkit-box-shadow: 18px 8px 30px black;
+          box-shadow: 18px 8px 30px black;
+  -webkit-transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.container .calculator table td:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  background-color: rgba(0, 255, 0, 0.747);
+  color: black;
+  font-size: 1.8rem;
+}
+
+.container .calculator table td:active {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  background-color: rgba(0, 255, 0, 0.747);
+  color: black;
+  font-size: 1.8rem;
+}
+
+.result {
+  margin-right: 1rem;
+  margin-top: 1rem;
+  position: relative;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  -webkit-box-shadow: 18px 8px 30px black;
+          box-shadow: 18px 8px 30px black;
+  font-weight: bold;
+  -webkit-transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  background: rgba(0, 0, 0, 0.856);
+  height: 4rem;
+  border: 2px solid rgba(0, 255, 0, 0.747);
+}
+
+.result:hover {
+  background: rgba(0, 0, 0, 0.856);
+  border: 1px solid rgba(0, 255, 0, 0.747);
+}
+
+.solve {
+  position: relative;
+  margin-right: 1rem;
+  font-weight: bold;
+  border-radius: 1rem;
+  -webkit-box-shadow: 18px 8px 30px black;
+          box-shadow: 18px 8px 30px black;
+  -webkit-transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  background: rgba(0, 0, 0, 0.856);
+  height: 5rem;
+  border: 2px solid rgba(0, 255, 0, 0.747);
+  margin-top: 1rem;
+}
+
+.solve:hover {
+  background: rgba(0, 0, 0, 0.856);
+  border: 1px solid rgba(0, 255, 0, 0.747);
+}
+
+span {
+  display: inline;
+  margin-right: 1rem;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.logo {
+  font-size: 4rem;
+  color: white;
+  font-family: monospace;
+}
+
+.center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: -3rem;
+}
+
+.pads {
+  margin-top: 1rem;
+}
+
+.ce {
+  font-weight: bolder;
+  font-size: 1.1rem;
+  letter-spacing: 3px;
+}
+
+.result span {
+  font-size: 1.5rem;
+}
+/*# sourceMappingURL=style.css.map */
